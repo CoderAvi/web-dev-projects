@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>
+        Slide Down a Navigation Bar on Scroll
+        using HTML CSS and JavaScript
+    </title>
+     
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+     
+    <style>
+     
+        /* styling article tag component */
+        article {
+            position: fixed;
+            margin-left: 10px;
+        }
+         
+        /* styling navlist */
+        #navlist {
+            background-color: #0074D9;
+            position: fixed;
+            left: 45%;
+            top: -60px;
+            width: auto;
+            display: block;
+            transition: top 0.3s;
+        }
+         
+        /* styling navlist anchor element */
+        #navlist a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+            font-size: 15px;
+        }
+         
+        /* hover effect of navlist anchor element */
+        #navlist a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    </style>
+</head>
+ 
+<body>
+     
+    <!-- logo with tag -->
+    <article>
+        <h1 style="color:green;">
+            GeeksforGeeks
+        </h1>
+         
+        <b>
+            A Computer Science
+            Portal for Geeks
+        </b>
+         
+         
+<p>
+            How many times were you frustrated while
+            looking out for a good collection of
+            programming/algorithm/interview questions?
+            What did you expect and what did you get?
+            This portal has been created to provide
+            well written, well thought and well
+            explained solutions for selected questions.
+        </p>
+ 
+    </article>
+     
+    <!-- Navbar items -->
+    <div id="navlist">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Our Products</a>
+        <a href="#">Careers</a>
+        <a href="#">Contact Us</a>
+    </div>
+ 
+    <!-- for creating scroll -->
+    <div class="scrollable"
+        style="padding:15px 15px 4500px;">
+    </div>
+ 
+    <script>
+     
+        // When the user scrolls down then
+        // slide down the navbar
+        window.onscroll = function() {
+            scroll()
+        };
+ 
+        function scroll() {
+            if (document.body.scrollTop > 20 ||
+                    document.documentElement.scrollTop > 20)
+            {
+                document.getElementById("navlist").style.top
+                            = "0";
+            }
+            else {
+                document.getElementById("navlist").style.top
+                            = "-60px";
+            }
+        }
+    </script>
+</body>
+ 
+</html>
