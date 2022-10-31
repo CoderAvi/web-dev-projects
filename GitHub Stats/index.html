@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Stats</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://pngimg.com/uploads/github/github_PNG83.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://pngimg.com/uploads/github/github_PNG83.png" alt="">
+            <h1>GitHub Stats</h1>            
+        </div>
+        <form>
+            <input type="text" placeholder="Enter GitHub username" id="user">
+            <input type="submit" value="Submit" id="btn">
+        </form>
+    </div>
+    <div class="card">
+        <div class="profile">
+            <img id="dp" src="" alt="">
+            <a href="" id="username" target="blank"></a>
+        </div>
+        <p id="bio"></p>
+        <div class="stats">
+            <div class="items">
+                <h2 id="followers"></h2>
+                <p id="followers-count"></p>
+            </div>
+            <div class="items">
+                <h2 id="following"></h2>
+                <p id="following-count"></p></div>
+            <div class="items">
+                <h2 id="repo"></h2>
+                <p id="repo-count"></p></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

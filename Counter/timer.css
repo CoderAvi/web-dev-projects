@@ -1,0 +1,43 @@
+
+#timer-time{
+    font-size:100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 40%;
+    margin-top: 10%;
+    color: white;
+}
+
+#b1{
+    font-size: 45px;
+    font-family:poppins;
+     background: linear-gradient(93.44deg, #ff1900 -6.8%, #ce9518 186.94%);
+    border-radius: 6px; 
+    color: aliceblue;
+    border: none;
+    margin-left: 30%;
+    box-shadow: 0px 0px 1px 1px rgb(0,0,0);
+}
+
+
+#b2{
+    font-size: 45px;
+    font-family:poppins;
+    background: linear-gradient(93.44deg, #444BAB -6.8%, #3CA5C2 186.94%);
+    border-radius: 6px;
+    color: aliceblue;
+    border: none;
+    margin-left:4.5%;
+    box-shadow: 0px 0px 1px 1px rgb(0,0,0);
+}
+
+
+#b3{
+    font-size: 45px;
+    font-family:poppins;
+    background: linear-gradient(93.44deg, #ff1900 -6.8%, #ce9518 186.94%);
+    border-radius: 6px;
+    color: aliceblue;
+    border: none;
+    margin-left: 4.5%;
+    box-shadow: 0px 0px 1px 1px rgb(0,0,0);
+}
