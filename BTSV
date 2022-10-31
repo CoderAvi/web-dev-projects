@@ -1,5 +1,0 @@
-install sketchpy library using pip
-Then..
-from sketchpy import library as lib
-skch=lib.bts()
-skch.draw()
